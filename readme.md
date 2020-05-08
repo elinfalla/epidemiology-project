@@ -2,6 +2,7 @@
 
 ## Undergraduate project/dissertation
 
+### Abstract
 Genetically engineering disease-resistance in crops is an effective way to reduce yield loss due to pathogens. Therefore, ensuring maximum disease-resistance durability in the face of pathogen evolution is an increasingly pressing issue in modern agriculture. The majority of mathematical models in this study area are deterministic rather than stochastic, despite many of them involving scenarios where  pathogen extinction is likely, such as emergence of a resistance-breaking trait. The aim of this study,
 therefore, was to compare how different genetic and epidemiological processes affect resistance durability in a stochastic versus a deterministic model. The results of the two models I created were
 compared to identify scenarios where the addition of stochasticity gives a substantially different result for the epidemic intensity. This will help inform future studies about the importance of stochasticity in certain contexts, and highlights the importance of an understanding of the dynamics of a biological system in order to ensure modelling most closely represents reality.
@@ -10,7 +11,7 @@ compared to identify scenarios where the addition of stochasticity gives a subst
 
 I analysed the difference in epidemic intensity between the stochastic and deterministic models in relation to three characteristics. Two were characteristics of the R gene - its robustness and the fitness cost of the resistance-breaking pathogen. The other was an ecological characteristic - the degree of connectivity of the landscape. See Section 2.1 for an in-depth model description.
 
-### Key results:
+### Key results
 
 In general, stochasticity is required when there's a high risk of extinction of the resistance-breaking (rb)
 (and in some cases the wild-type) pathogen. One important case of this is when there's a low emergence frequency of the rb pathogen, caused by a robust resistance (R) gene in the crop.
