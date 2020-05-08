@@ -1,7 +1,7 @@
 #IMPORTANT: RUN 2_PATCH_STOCHAST FIRST
 
 epsilon_vals <- c(0.95, 0.05)
-delta_vals <- seq(0,1, length.out = 25)
+delta_vals <- seq(0,1, length.out = 5)
 epsilon_AUCs <- vector(length = length(epsilon_vals))
 
 stoc_epsilon_aucs <- vector(length = length(epsilon_vals))

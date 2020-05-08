@@ -1,8 +1,10 @@
 #set working directory
-setwd("Dropbox/CAMBRIDGE/Part_2/Project/Two_patch_model/Stochastic_model/")
+# setwd("Dropbox/CAMBRIDGE/Part_2/Project/Two_patch_model/Stochastic_model/")
 
 # delete everything
 rm(list=ls(all=TRUE))
+
+dir.create(file.path(".", "values_csvs"))
 
 # import necessary libraries
 require(adaptivetau)
